@@ -1,13 +1,12 @@
 import { Link } from 'react-router-dom'
 import {
-  AlertTriangle, ArrowRight, BatteryCharging, Building2, CalendarDays, CheckCircle2,
-  Download, Edit3, Gauge, Leaf, LineChart, MapPin, Phone, Ruler, ShieldCheck,
-  SolarPanel, TrendingDown, Zap
+  Sun, TrendingDown, Zap
 } from 'lucide-react'
 import { sampleProject } from '../data/sample'
 
 const metrics = [
-  {label:'Possible PV capacity', value:'220–280', unit:'kWp', icon:SolarPanel, note:'Subject to structural and electrical review'},
+  {
+  label: 'Possible PV capacity',value: '220–280',unit: 'kWp',icon: Sun,note: 'Subject to structural and electrical review'},
   {label:'Annual generation', value:'330–420', unit:'MWh', icon:LineChart, note:'Indicative production range'},
   {label:'Self-consumption', value:'70%–85%', unit:'', icon:Zap, note:'Based on submitted operating pattern'},
   {label:'Annual cost savings', value:'€62k–€91k', unit:'', icon:TrendingDown, note:'Demonstration value only'},
