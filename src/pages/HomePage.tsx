@@ -1,10 +1,7 @@
 import { Link } from 'react-router-dom'
 import type { LucideIcon } from 'lucide-react'
 import {
-  ArrowRight, BarChart3, BatteryCharging, Building2, Check, ChevronRight,
-  ClipboardCheck, FileBarChart, Factory, Handshake, HardHat, Hotel, Leaf,
   LineChart, LockKeyhole, Scale, ShieldCheck, Sun, Store, Warehouse,
-  Zap
 } from 'lucide-react'
 
 const steps: [string, string, LucideIcon][] = [
