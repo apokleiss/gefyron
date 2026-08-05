@@ -3,7 +3,7 @@ import type { LucideIcon } from 'lucide-react'
 import {
   ArrowRight, BarChart3, BatteryCharging, Building2, Check, ChevronRight,
   ClipboardCheck, FileBarChart, Factory, Handshake, HardHat, Hotel, Leaf,
-  LineChart, LockKeyhole, Scale, ShieldCheck, SolarPanel, Store, Warehouse,
+  LineChart, LockKeyhole, Scale, ShieldCheck, Sun, Store, Warehouse,
   Zap
 } from 'lucide-react'
 
@@ -66,7 +66,7 @@ export default function HomePage() {
               </div>
               <div className="grid gap-4 p-5 sm:grid-cols-2">
                 <div className="rounded-xl bg-navy-950 p-4 text-white sm:col-span-2">
-                  <div className="flex justify-between text-sm text-slate-300"><span>Possible PV capacity</span><SolarPanel size={18}/></div>
+                  <div className="flex justify-between text-sm text-slate-300"><span>Possible PV capacity</span><Sun size={18}/>
                   <p className="mt-2 text-3xl font-black">220–280 kWp</p>
                   <div className="mt-4 h-2 overflow-hidden rounded-full bg-white/15"><div className="h-full w-4/5 rounded-full bg-energy-500"/></div>
                 </div>
